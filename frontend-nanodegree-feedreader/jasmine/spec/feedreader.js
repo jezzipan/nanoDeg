@@ -1,18 +1,17 @@
 /* feedreader.js
- *
- * This is the spec file that Jasmine will read and contains
- * all of the tests that will be run against your application.
+ 
+/* Todos os testes dentro da funcao $() function, alguns desses testes 
+podem requerer elementos DOM. Para garantir que eles sejam executados 
+até que o DOM esteja pronto.
+ 
  */
 
-/* We're placing all of our tests within the $() function,
- * since some of these tests may require DOM elements. We want
- * to ensure they don't run until the DOM is ready.
- */
 $(function () {
-    /* This is our first test suite - a test suite just contains
-    * a related set of tests. This suite is all about the RSS
-    * feeds definitions, the allFeeds variable in our application.
-    */
+    /* Esta é a nossa primeira suíte de testes - uma suíte de testes contém apenas
+    um conjunto relacionado de testes. Esta suite é toda sobre o RSS
+    alimenta definições, a variável allFeeds em nossa aplicação.
+   */
+
     describe('RSS Feeds', function () {
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
@@ -21,6 +20,15 @@ $(function () {
          * allFeeds in app.js to be an empty array and refresh the
          * page?
          */
+
+
+        /* Este é o nosso primeiro teste - ele testa para garantir que o
+        allFeeds variável foi definida e que não é
+        vazio Experimente isso antes de começar
+        o resto deste projeto. O que acontece quando você muda
+        allFeeds em app.js para ser uma matriz vazia e atualizar o
+        página?
+        */
         it('are defined', function () {
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
