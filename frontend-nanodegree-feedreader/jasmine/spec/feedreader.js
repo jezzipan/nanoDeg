@@ -27,7 +27,7 @@ $(function () {
         });
 
 
-        /* TODO: Escreva um teste que faça um loop em cada feed
+        /*  Escreva um teste que faça um loop em cada feed
          no objeto allFeeds. Garanta que ele tenha um URL definido
          e que o URL não está inválida. FEITO
         */ 
@@ -38,7 +38,7 @@ $(function () {
             });
         })
 
-        /*  TODO: Escreva um teste que faça um loop em cada feed
+        /*   Escreva um teste que faça um loop em cada feed
          no objeto allFeeds e garanta que ele tenha um nome definido
          e que o nome não está invalido. FEITO
          */ 
@@ -53,12 +53,12 @@ $(function () {
     });
 
 
-    /* TODO: Escreva um novo teste "The menu" */
+    /*  Escreva um novo teste "The menu" */
     describe('theMenu', function () {
         let body = $('body'),
             btn = $('.menu-icon-link');
 
-        /* TODO: Escreva um teste que garanta que o elemento de menu seja
+        /*  Escreva um teste que garanta que o elemento de menu seja
             escondido por padrão. Você terá que analisar o HTML e
             o CSS para determinar como estamos executando o
             ocultação / exibição do elemento de menu. FEITO
@@ -68,7 +68,7 @@ $(function () {
             expect(body.hasClass('menu-hidden')).toBe(true);//hidden
         });
 
-        /* TODO: Escreva um teste que garanta as mudanças no menu
+        /*  Escreva um teste que garanta as mudanças no menu
           visibilidade quando o ícone do menu é clicado. Esse teste
           deve ter duas expectativas: o menu exibe quando
           clicado e oculta quando clicado novamente. FEITO
@@ -85,10 +85,10 @@ $(function () {
 
     });
 
-    /* TODO: Escreva uma nova suite de teste chamado "Initial Entries" */
+    /*  Escreva uma nova suite de teste chamado "Initial Entries" */
     describe('initialEntries', function () {
 
-        /* TODO: Escreva um teste que garanta quando a função loadFeed
+        /*  Escreva um teste que garanta quando a função loadFeed
             é chamada e completa seu trabalho, há pelo menos
              um único elemento .entry dentro do contêiner .feed.
              Lembre-se, loadFeed() é assíncrono, então esse teste exigirá
@@ -106,10 +106,10 @@ $(function () {
         });
     });
 
-    /* TODO: Escreva uma nova suite de teste chamado "New Feed Selection"*/
+    /*  Escreva uma nova suite de teste chamado "New Feed Selection"*/
     describe('newFeedSelection', function () {
 
-        /* TODO: Escreva um teste que garanta quando um novo feed é carregado
+        /*  Escreva um teste que garanta quando um novo feed é carregado
          pela função loadFeed e que o conteúdo realmente muda.
          Lembre-se, loadFeed() é assíncrono.
          */       
