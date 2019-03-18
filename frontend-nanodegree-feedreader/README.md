@@ -84,7 +84,5 @@ Além disso, observe que:
 
 Quando terminar, escreva um arquivo README detalhando todas as etapas necessárias para executar o aplicativo com êxito. Se você adicionou testes adicionais, forneça documentação sobre quais são esses recursos futuros e o que os testes estão verificando.
 
-# Contribuindo
 
-Este repositório é o código inicial para estudantes _all_ Udacity. Portanto, provavelmente não aceitaremos solicitações de pull.
 
