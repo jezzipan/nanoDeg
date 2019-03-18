@@ -1,12 +1,12 @@
 /* app.js
  *
- * This is our RSS feed reader application. It uses the Google
- * Feed Reader API to grab RSS feeds as JSON object we can make
- * use of. It also uses the Handlebars templating library and
- * jQuery.
+ * Esta é a nossa aplicação de leitor de feeds RSS. Ele usa o Google Feed Reader
+ *  API para pegar feeds RSS como objeto JSON que podemos fazer uso de. 
+ * Ele também usa a biblioteca de modelos de guidão e jQuery
+ 
  */
 
-// The names and URLs to all of the feeds we'd like available.
+// Nomes e URLs do feeds que disponibilizamos
 var allFeeds = [
     {
         name: 'Udacity Blog',
