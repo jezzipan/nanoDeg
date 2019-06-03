@@ -176,7 +176,6 @@ fillBreadcrumb = (restaurant=self.restaurant) => {
   li.innerHTML = restaurant.name;
   breadcrumb.appendChild(li);
 }
-
 /**
  * Get a parameter by name from page URL.
  */
